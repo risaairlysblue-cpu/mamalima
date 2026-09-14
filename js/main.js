@@ -41,8 +41,12 @@ const SHEET_ENDPOINT = "";
 
 function logToSheet(form, data) {
   if (!SHEET_ENDPOINT || !form.dataset.sheet) return;
-  const body = new FormData();
-  for (const [k, v] of data.entries()) body.append(k, v);
+  // Apps Script の doPost は multipart（FormDataそのまま）を読めないので、
+  // URLSearchParams で application/x-www-form-urlencoded にして送る
+  const body = new URLSearchParams();
+  for (const [k, v] of data.entries()) {
+    if (typeof v === "string") body.append(k, v);
+  }
   body.append("_sheet", form.dataset.sheet);
   // 記録は補助なので、失敗してもフォーム送信は成功のままにする
   fetch(SHEET_ENDPOINT, { method: "POST", mode: "no-cors", body }).catch((err) => {
