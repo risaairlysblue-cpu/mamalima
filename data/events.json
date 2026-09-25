@@ -286,5 +286,87 @@
     ],
     "price": 12000,
     "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-11-05",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      {
+        "time": "AM 10:00〜11:30"
+      }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-11-08",
+    "kind": "school",
+    "title": "幼稚園出張レッスン",
+    "time": "AM"
+  },
+  {
+    "date": "2026-11-12",
+    "kind": "nukumori",
+    "title": "地域子育て支援「ぬくもり」発達相談会",
+    "time": "10:30〜12:00",
+    "price": 1000,
+    "capacity": 4,
+    "remaining": 4,
+    "applyUrl": "nukumori.html#apply",
+    "applyLabel": "このイベントに申し込む →",
+    "lineUrl": "https://hpjouynr.autosns.app/line"
+  },
+  {
+    "date": "2026-11-19",
+    "kind": "group",
+    "title": "グループレッスン",
+    "time": "10:00〜11:30",
+    "place": "講師自宅",
+    "price": 6000,
+    "capacity": 4,
+    "remaining": 4,
+    "applyUrl": "lessons/group.html",
+    "applyLabel": "グループレッスンを見る →",
+    "lineUrl": "https://hpjouynr.autosns.app/line"
+  },
+  {
+    "date": "2026-11-22",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      {
+        "time": "AM 10:00〜11:30"
+      },
+      {
+        "time": "PM 13:00〜14:30"
+      }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-11-23",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      {
+        "time": "AM 10:00〜11:30"
+      }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-11-26",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      {
+        "time": "AM 10:00〜11:30"
+      }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
   }
 ]

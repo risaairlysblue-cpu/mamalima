@@ -112,6 +112,7 @@ const EVENT_KINDS = {
   nukumori: { short: "ぬくもり", label: "ぬくもり発達相談会", listed: true },
   group:    { short: "グループ", label: "グループレッスン",   listed: true },
   private:  { short: "個別",     label: "個別レッスン",       listed: false },
+  school:   { short: "出張",     label: "出張レッスン",       listed: false },
 };
 
 function kindOf(ev) {
