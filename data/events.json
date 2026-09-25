@@ -142,7 +142,8 @@
     "title": "個別レッスン",
     "sessions": [
       {
-        "time": "AM 10:00〜11:30"
+        "time": "AM 10:00〜11:30",
+        "full": true
       }
     ],
     "price": 12000,
@@ -154,7 +155,8 @@
     "title": "個別レッスン",
     "sessions": [
       {
-        "time": "AM 10:00〜11:30"
+        "time": "AM 10:00〜11:30",
+        "full": true
       },
       {
         "time": "PM 13:00〜14:30"
@@ -197,7 +199,8 @@
         "time": "AM 10:00〜11:30"
       },
       {
-        "time": "PM 13:00〜14:30"
+        "time": "PM 13:00〜14:30",
+        "full": true
       }
     ],
     "price": 12000,
@@ -222,7 +225,8 @@
     "title": "個別レッスン",
     "sessions": [
       {
-        "time": "AM 10:00〜11:30"
+        "time": "AM 10:00〜11:30",
+        "full": true
       }
     ],
     "price": 12000,
@@ -234,7 +238,8 @@
     "title": "個別レッスン",
     "sessions": [
       {
-        "time": "AM 10:00〜11:30"
+        "time": "AM 10:00〜11:30",
+        "full": true
       }
     ],
     "price": 12000,
@@ -258,10 +263,12 @@
     "title": "個別レッスン",
     "sessions": [
       {
-        "time": "AM 10:00〜11:30"
+        "time": "AM 10:00〜11:30",
+        "full": true
       },
       {
-        "time": "PM 13:00〜14:30"
+        "time": "PM 13:00〜14:30",
+        "full": true
       }
     ],
     "price": 12000,
@@ -273,7 +280,8 @@
     "title": "個別レッスン",
     "sessions": [
       {
-        "time": "AM 10:00〜11:30"
+        "time": "AM 10:00〜11:30",
+        "full": true
       }
     ],
     "price": 12000,
