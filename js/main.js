@@ -113,6 +113,7 @@ const EVENT_KINDS = {
   group:    { short: "グループ", label: "グループレッスン",   listed: true },
   private:  { short: "個別",     label: "個別レッスン",       listed: false },
   school:   { short: "出張",     label: "出張レッスン",       listed: false },
+  aroma:    { short: "アロマ",   label: "ベビー・キッズアロマ認定講師講座", listed: true },
 };
 
 function kindOf(ev) {
