@@ -368,5 +368,32 @@
     ],
     "price": 12000,
     "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-11-14",
+    "kind": "aroma",
+    "title": "ベビー・キッズアロマ認定講師講座",
+    "time": "AM 10:00〜12:00",
+    "price": 34100,
+    "applyUrl": "aroma.html#form",
+    "applyLabel": "この日を予約する →"
+  },
+  {
+    "date": "2026-11-16",
+    "kind": "aroma",
+    "title": "ベビー・キッズアロマ認定講師講座",
+    "time": "AM 10:30〜12:00",
+    "price": 34100,
+    "applyUrl": "aroma.html#form",
+    "applyLabel": "この日を予約する →"
+  },
+  {
+    "date": "2026-11-28",
+    "kind": "aroma",
+    "title": "ベビー・キッズアロマ認定講師講座",
+    "time": "AM 10:00〜12:00",
+    "price": 34100,
+    "applyUrl": "aroma.html#form",
+    "applyLabel": "この日を予約する →"
   }
 ]
