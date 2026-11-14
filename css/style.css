@@ -3731,6 +3731,7 @@ body:has(.sticky-book) { padding-bottom: 88px; }
 .mark-nukumori { background: #b9a3cf; }
 .mark-school   { background: #8aa3c4; }
 .mark-aroma    { background: #c9a24a; }
+.mark-collab   { background: #d98a6f; }
 
 /* 満席の印。丸ではなく「満」の文字で出す */
 .mark-full {
