@@ -395,5 +395,86 @@
     "price": 34100,
     "applyUrl": "aroma.html#form",
     "applyLabel": "この日を予約する →"
+  },
+  {
+    "date": "2026-12-03",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      { "time": "AM 10:00〜11:30" },
+      { "time": "PM 13:00〜14:30" }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-12-07",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      { "time": "AM 10:00〜11:30" },
+      { "time": "PM 13:00〜14:30" }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-12-10",
+    "kind": "school",
+    "title": "幼稚園出張レッスン",
+    "time": "AM"
+  },
+  {
+    "date": "2026-12-14",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      { "time": "AM 10:00〜11:30" },
+      { "time": "PM 13:00〜14:30" }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-12-16",
+    "kind": "collab",
+    "title": "フォトベビマコラボ",
+    "time": "10:00〜11:30",
+    "place": "おもちゃ美術館1階多目的ホール",
+    "price": 3000,
+    "note": "詳細は近日公開"
+  },
+  {
+    "date": "2026-12-20",
+    "kind": "private",
+    "title": "個別レッスン",
+    "sessions": [
+      { "time": "AM 10:00〜11:30" },
+      { "time": "PM 13:00〜14:30" }
+    ],
+    "price": 12000,
+    "note": "90分／無料発達相談30分もあります"
+  },
+  {
+    "date": "2026-12-24",
+    "kind": "group",
+    "title": "グループレッスン",
+    "time": "10:00〜11:30",
+    "place": "講師自宅",
+    "price": 6000,
+    "capacity": 4,
+    "remaining": 4,
+    "applyUrl": "lessons/group.html",
+    "applyLabel": "グループレッスンを見る →",
+    "lineUrl": "https://hpjouynr.autosns.app/line"
+  },
+  {
+    "date": "2026-12-27",
+    "kind": "aroma",
+    "title": "ベビー・キッズアロマ認定講師講座",
+    "time": "AM 10:00〜12:00",
+    "price": 34100,
+    "applyUrl": "aroma.html#form",
+    "applyLabel": "この日を予約する →"
   }
 ]
