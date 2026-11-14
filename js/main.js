@@ -114,7 +114,7 @@ const EVENT_KINDS = {
   private:  { short: "個別",     label: "個別レッスン",       listed: false },
   school:   { short: "出張",     label: "出張レッスン",       listed: false },
   aroma:    { short: "アロマ",   label: "ベビー・キッズアロマ認定講師講座", listed: true },
-  collab:   { short: "コラボ",   label: "フォトベビマコラボ", listed: true },
+  collab:   { short: "コラボ",   label: "コラボ",             listed: true },
 };
 
 function kindOf(ev) {
@@ -485,9 +485,14 @@ function renderDayDetail(el, dateKey, dayEvents) {
       : (full && !sessionsOf(ev).some((sn) => sn.full)
           ? '<span class="detail-full">満席</span>' : "");
 
+    // タイトルが分類名と同じときは二重に出さない（個別・グループ・ぬくもりなど）
+    const titleRow = ev.title && ev.title !== EVENT_KINDS[k].label
+      ? `<p class="detail-title">${ev.title}</p>` : "";
+
     return `
       <div class="detail-item${full ? " is-full" : ""}">
         <p class="detail-kind"><i class="mark mark-${k}"></i>${EVENT_KINDS[k].label}</p>
+        ${titleRow}
         ${sessions}
         ${rows.map((r) => `<p class="detail-row">${r}</p>`).join("")}
         ${link}

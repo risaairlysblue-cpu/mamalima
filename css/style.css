@@ -3858,6 +3858,12 @@ body:has(.sticky-book) { padding-bottom: 88px; }
   font-size: 16px;
 }
 
+.detail-title {
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 .detail-row {
   margin: 0 0 4px;
   color: var(--color-text-soft);
