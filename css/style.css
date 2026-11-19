@@ -600,34 +600,50 @@ section {
   max-width: 860px;
   margin: 0 auto;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 13px;
 }
 
 .worry-item {
+  position: relative;
   display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 20px 24px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 20px 108px 56px 22px;
+  min-height: 92px;
   background: var(--color-bg-card);
   border: 1px solid #f0e2dd;
   border-radius: var(--radius-md);
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 1.7;
+  overflow: hidden;
 }
 
 /* 丸いチェックマーク */
 .worry-item::before {
   content: "✓";
   flex: none;
-  width: 34px;
-  height: 34px;
+  width: 30px;
+  height: 30px;
   display: grid;
   place-items: center;
   border-radius: 50%;
   background: #f5e6e2;
   color: var(--color-primary-dark);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
+}
+
+.worry-text { margin: 0; }
+
+.worry-illust {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: 98px;
+  height: auto;
+  border-radius: 12px;
+  pointer-events: none;
 }
 
 /* 締めのメッセージ（サブカラーの帯） */
@@ -652,16 +668,26 @@ section {
 }
 
 @media (max-width: 620px) {
+  .worry-list {
+    gap: 10px;
+  }
+
   .worry-item {
-    gap: 13px;
-    padding: 17px 18px;
-    font-size: 15px;
+    gap: 10px;
+    padding: 14px 76px 50px 14px;
+    min-height: 78px;
+    font-size: 13px;
+    line-height: 1.55;
   }
 
   .worry-item::before {
-    width: 29px;
-    height: 29px;
-    font-size: 13px;
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+  }
+
+  .worry-illust {
+    width: 68px;
   }
 
   .worry-note {
