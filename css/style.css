@@ -589,8 +589,7 @@ section {
   color: var(--color-primary-dark);
 }
 
-/* ---------- 「こんなお悩みはありませんか？」セクション ----------
-   公開中のWixサイトに合わせたチェックリスト形式             */
+/* ---------- 「こんなお悩みはありませんか？」セクション ---------- */
 
 .worry-section {
   background: #fdfcfa;
@@ -600,6 +599,7 @@ section {
   max-width: 860px;
   margin: 0 auto;
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 13px;
 }
 
@@ -607,27 +607,19 @@ section {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 20px 24px;
+  padding: 12px 20px;
   background: var(--color-bg-card);
   border: 1px solid #f0e2dd;
   border-radius: var(--radius-md);
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.65;
 }
 
-/* 丸いチェックマーク */
-.worry-item::before {
-  content: "✓";
+.worry-illustration {
   flex: none;
-  width: 34px;
-  height: 34px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: #f5e6e2;
-  color: var(--color-primary-dark);
-  font-size: 14px;
-  font-weight: 700;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
 }
 
 /* 締めのメッセージ（サブカラーの帯） */
@@ -652,16 +644,19 @@ section {
 }
 
 @media (max-width: 620px) {
-  .worry-item {
-    gap: 13px;
-    padding: 17px 18px;
-    font-size: 15px;
+  .worry-list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 9px;
   }
 
-  .worry-item::before {
-    width: 29px;
-    height: 29px;
-    font-size: 13px;
+  .worry-item {
+    gap: 12px;
+    padding: 9px 14px;
+  }
+
+  .worry-illustration {
+    width: 58px;
+    height: 58px;
   }
 
   .worry-note {
