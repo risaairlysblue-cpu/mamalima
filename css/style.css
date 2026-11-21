@@ -2006,8 +2006,12 @@ section {
   gap: 20px;
 }
 
+@media (min-width: 620px) {
+  .choice-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (min-width: 860px) {
-  .choice-grid { grid-template-columns: repeat(3, 1fr); }
+  .choice-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 .choice-card {
@@ -2322,12 +2326,12 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 46px;
-  max-width: 900px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
-@media (min-width: 940px) {
-  .plan-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+@media (min-width: 660px) {
+  .plan-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
 }
 
 .plan-card {
