@@ -442,7 +442,9 @@
     "time": "10:00〜11:30",
     "place": "おもちゃ美術館1階多目的ホール",
     "price": 3000,
-    "note": "詳細は近日公開"
+    "note": "詳細は近日公開",
+    "applyUrl": "https://hpjouynr.autosns.app/line",
+    "applyLabel": "この日を予約する →"
   },
   {
     "date": "2026-12-20",
